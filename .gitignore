@@ -1,0 +1,33 @@
+Seu desafio é criar esta página em breve e deixá-la o mais próxima possível do design.
+
+Você pode usar qualquer ferramenta que quiser para ajudar a completar o desafio. Então, se você tem algo que gostaria de praticar, sinta-se à vontade para tentar.
+
+Seus usuários devem ser capazes de:
+
+Veja o layout ideal para a interface dependendo do tamanho da tela do seu dispositivo
+Veja os estados de foco e foco para todos os elementos interativos na página
+Receba uma mensagem de erro quando o formfor enviado se:
+O inputcampo está vazio
+O endereço de e-mail não está formatado corretamente
+Baixe o código inicial e percorra o README.mdarquivo. Isso fornecerá mais detalhes sobre o projeto. O style-guide.mdarquivo é onde você encontrará cores, fontes, etc.
+
+Quer algum apoio no desafio?
+Junte-se à nossa comunidade
+e faça perguntas no canal de ajuda.
+
+Ideias para testar a si mesmo
+Escreva seus estilos usando um pré-processador, como
+Atrevimento
+,
+Menos
+ou
+Caneta
+Treine seu olhar para os detalhes, aproximando sua solução o máximo possível do design
+Tente estimar o tempo que levará para você construir o projeto. Então veja se o tempo gasto corresponde à sua estimativa. Estimativas de projeto são uma habilidade que é frequentemente negligenciada, mas é essencial para desenvolvedores profissionais
+
+  We're coming soon
+
+  Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.
+
+  Email Address

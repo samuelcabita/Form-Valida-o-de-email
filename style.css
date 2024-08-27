@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: #3e52a3;
+    color: #413a3a;
+    color:#ee8c8c ;
+    color: #f8bfbf;
+    color: #fff5f5;
+    color: #ce9797;
+    color: #f96262;
+}
+
+main {
+    display: flex;
+}
+
+main .span-requerid {
+    display: none;
+    color: #ff7171;
+    padding-left: 20px
+}
+
+main aside:nth-of-type(1) {
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    height: 800px;
+    padding: 80px 150px 0 150px;
+}
+
+main aside:nth-of-type(2) {
+    background: blue;
+    width: 40%;
+    height: 800px;
+}
+
+main .side_text .logo {
+    padding-bottom: 100px;
+}
+
+main .artigo h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+main .artigo h1>span {
+    font-size: 50px;
+    font-weight: 100;
+    color: #ce9797;
+}
+
+main .artigo h2 {
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 15px;
+    line-height: 30px;
+    color: #ce9797;
+}
+
+main .input-box {
+    border: 1px solid #ce9797;
+    width: 457px;
+    border-radius: 30px;
+    margin-top: 50px;
+    height: fixed;
+   
+}
+
+main .input-box input {
+    width: 340px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    padding: 0 20px;
+    outline: none;
+    color:#ce9797;
+}
+
+main .input-box>img {
+    position: relative;
+    top: 5px;   
+    display: none;
+}
+@keyframes click{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+main .input-box button {
+    position: fixed;
+    padding: 13px 30px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 43px;
+    cursor: pointer;
+    background: #f5a4a4 ;
+    transition: all 0.3s linear;
+}
+main .input-box button:hover{
+    background:#ff7171 ;
+    animation: click 1s;
+}
